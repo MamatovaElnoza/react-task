@@ -4,11 +4,18 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.clr{
+    clear: both;
+}
+
+body{
+    color: #040E27;
+}
 
 .logo{
   font-size: 50px;
   font-weight: bold;
-  background-image: url(/public/527a18677c02f3d017859415e8e7af930708.jpg);
+  background-image: url(/public/images/527a18677c02f3d017859415e8e7af930708.jpg);
   background-size: cover;
   background-position: center;
   color: transparent !important;
@@ -36,7 +43,7 @@
 
 .navbar {
     height: 90px;
-    background-color: #000;
+    background-color: #040E27;
     color: #fff;
 }
 

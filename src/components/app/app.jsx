@@ -6,6 +6,7 @@ import Filter from '../filter/filter'
 import Gallery from '../gallery/gallery'
 import Contact from '../contact/contact'
 import Footer from '../footer/footer'
+import YouTubeVedio from '../vedio/Vedio'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Home />
         <Filter />
         <Gallery />
+        <YouTubeVedio/>
         <Contact />
         <Footer />
     </div>
