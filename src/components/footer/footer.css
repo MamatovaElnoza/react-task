@@ -1,0 +1,30 @@
+.footer i{
+    margin: 10px;
+    font-size: 18px;
+}
+.footer_color{
+    background-color: #040E27;
+    color: #fff !important;
+    height: 450px;
+}
+
+.footer{
+    height: 350px;
+    padding: 50px 0;
+}
+
+.copy p{
+    text-align: center;
+}
+
+.copy span{
+    color: #ff0000;
+}
+
+.foter img {
+    border-radius: 5px;
+    margin: 3px ;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
