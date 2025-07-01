@@ -1,0 +1,26 @@
+.gallery-container {
+    margin: 50px 5%;
+}
+
+.filter-btn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #e5e7eb;
+  color: #040E27;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: #d1d5db;
+}
+
+.filter-btn.active {
+  background-color: #040E27;
+  color: white;
+}
+.cardd:hover{
+  outline: 1px solid #C54805;
+}
