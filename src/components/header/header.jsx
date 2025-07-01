@@ -12,7 +12,7 @@ const Header = (props) => {
     }
   }
 
-  return (
+  return 
     <div className='cont'>
       <header className='navbar '>
         <div className="container">
@@ -76,6 +76,7 @@ const Header = (props) => {
         </div>
       </header>
       <div className="clr"></div>
+    <div>
     </div>
   )
 }
