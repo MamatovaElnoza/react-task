@@ -28,7 +28,7 @@
 .button-regstration {
   padding: 12px 24px;
   font-size: 16px;
-  background-color: #3b82f6;
+  background-color: #C54805;
   color: white;
   border: none;
   border-radius: 10px;
@@ -39,7 +39,7 @@
 }
 
 .button-regstration:hover {
-  background-color: #2563eb;
-  transform: scale(1.05);
+  background-color: #040E27;
+  transform: scale(1.05);;
 }
 

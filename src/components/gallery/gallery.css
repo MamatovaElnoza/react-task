@@ -6,7 +6,7 @@
   padding: 10px 15px;
   border: none;
   background-color: #e5e7eb;
-  color: #111827;
+  color: #040E27;
   border-radius: 8px;
   font-weight: 500;
   cursor: pointer;
@@ -18,7 +18,7 @@
 }
 
 .filter-btn.active {
-  background-color: #3b82f6;
+  background-color: #040E27;
   color: white;
 }
 .cardd:hover{

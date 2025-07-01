@@ -103,7 +103,7 @@ class Gallery extends Component {
     return (
       <div className='gallery-container'>
         <div className='container'>
-          <h1 style={{ color: '#3b82f6', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
+          <h1 style={{ color: '#C54805', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
           <div style={{display: 'flex', margin: '0px 200px 20px', gap: '30px'}}>
             <h2 style={{ fontSize: '40px', fontWeight: '600' }}>Gallery</h2>
             <div style={{ marginTop: '10px', display: 'flex', gap: '10px' }}>
