@@ -39,7 +39,6 @@ body {
     position: fixed !important;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.02);
     font-size: 1.1rem;
-
 }
 
 .navbar {
@@ -161,6 +160,13 @@ body {
 }
 .sub-menu-link:hover p{
     font-weight: 600;
+}
+
+.sidebar button{
+    margin-top: 5px;
+    border: 1px solid #fff;
+    background: #040E27;
+    color: #fff;
 }
 
 @media (max-width:360px) {

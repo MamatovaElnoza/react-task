@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Lordania from './images/Lordania.jpg';
 import Egypt from './images/Egypt.jpg';
 import BAA from './images/BAA.webp';
@@ -74,7 +74,7 @@ class Gallery extends Component {
 
   template(trip, index) {
     return (
-      <div
+      <div className='cardd'
         key={index}
         style={{
           border: '1px solid gray',
@@ -83,7 +83,7 @@ class Gallery extends Component {
           width: '250px',
           boxSizing: 'border-box',
           borderRadius: '10px',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         }}
       >
         <img
@@ -102,7 +102,7 @@ class Gallery extends Component {
   render() {
     return (
       <div className='gallery-container'>
-        <div>
+        <div className='container'>
           <h1 style={{ color: '#3b82f6', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
           <div style={{display: 'flex', margin: '0px 200px 20px', gap: '30px'}}>
             <h2 style={{ fontSize: '40px', fontWeight: '600' }}>Gallery</h2>
@@ -116,7 +116,7 @@ class Gallery extends Component {
         <div style={{
           display: 'flex',
           flexWrap: 'wrap',
-          justifyContent: 'flex-start',
+          justifyContent: 'space-evenly',
           gap: '10px',
           marginTop: '20px'
         }}>

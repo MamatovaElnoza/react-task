@@ -16,8 +16,9 @@ class Registration extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Foydalanuvchi:', this.state.username);
-    console.log('Parol:', this.state.password);
+    if (this.props.onRegister) {
+      this.props.onRegister(this.state.username)
+    }
   }
 
   render() {
@@ -25,8 +26,8 @@ class Registration extends Component {
       <div className="registration-container" ref={this.props.innerRef}>
         <form className='registration-form' onSubmit={this.handleSubmit}>
           <div style={{ textAlign: 'center', margin: '40px' }}>
-            <h1 style={{color: '#3b82f6', fontSize: '50px', fontWeight: '700'}}>FARQI YO'Q .</h1>
-            <h2 style={{fontSize: '40px', marginLeft: '120px', fontWeight: '600'}}>Registration</h2>
+            <h1 style={{ color: '#3b82f6', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
+            <h2 style={{ fontSize: '40px', marginLeft: '120px', fontWeight: '600' }}>Registration</h2>
           </div>
           <div className='inputs-div'>
             <input className='input' type="text" name="username" placeholder="User Name" value={this.state.username} onChange={this.handleChange} />

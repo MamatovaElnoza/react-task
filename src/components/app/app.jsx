@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
+import React, { Component, createRef } from 'react';
 import Header from '../header/header'
 import Registration from '../registration/registration'
 import Home from '../home/home'
@@ -8,21 +7,15 @@ import Gallery from '../gallery/gallery'
 import Contact from '../contact/contact'
 import Footer from '../footer/footer'
 import YouTubeVedio from '../vedio/Vedio'
-=======
-import React, { Component, createRef } from 'react';
-import Header from '../header/header';
-import Registration from '../registration/registration';
-import Home from '../home/home';
-import Filter from '../filter/filter';
-import Gallery from '../gallery/gallery';
-import Contact from '../contact/contact';
-import Footer from '../footer/footer';
->>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
+
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.registrationRef = createRef();
+    this.state = {
+      user: ''
+    };
   }
 
   scrollToRegistration = () => {
@@ -31,15 +24,19 @@ class App extends Component {
     }
   }
 
+  handleUserUpdate = (username) => {
+    this.setState({ user: username });
+  }
+
   render() {
     return (
       <div>
-        <Header scrollToReg={this.scrollToRegistration} />
+        <Header scrollToReg={this.scrollToRegistration} user={this.state.user} />
         <Home />
-        <Registration innerRef={this.registrationRef} />
+        <Registration innerRef={this.registrationRef} onRegister={this.handleUserUpdate} />
         <Filter />
         <Gallery />
-        <YouTubeVedio/>
+        <YouTubeVedio />
         <Contact />
         <Footer />
       </div>

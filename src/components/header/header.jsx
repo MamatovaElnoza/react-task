@@ -1,10 +1,17 @@
-<<<<<<< HEAD
 import './header.css'
 import React, { useState } from 'react';
 
-const Header = () => {
+const Header = (props) => {
   const [open, setOpen] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+
+
+  const handleScrollToRegistration = () => {
+    if (props.scrollToReg) {
+      props.scrollToReg();
+    }
+  }
+
   return (
     <div className='cont'>
       <header className='navbar '>
@@ -26,18 +33,18 @@ const Header = () => {
                   <a className="nav-link " href='#Contact'>Contact</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " href="#login">Log in</a>
+                  <button className='btn' onClick={handleScrollToRegistration}>Sign Up</button>
                 </li>
               </div>
             </ul>
             <div className="user" onClick={() => setShowMenu(!showMenu)} ><i className="fa-solid fa-user"></i>
-              user
+             {props.user || 'user'}
             </div>
             <div className={`sub-menu-wrap ${showMenu ? 'active' : ''}`} >
               <div className="sub-menu">
                 <div className="user-info">
                   <i className="fa-solid fa-user"></i>
-                  <h3>user-info</h3>
+                  <h3>{props.user || 'user-info'}</h3>
                 </div>
                 <hr />
                 <a href="a" className='sub-menu-link'>
@@ -71,25 +78,5 @@ const Header = () => {
       <div className="clr"></div>
     </div>
   )
-=======
-import React, { Component } from 'react';
-import './header.css';
-
-class Header extends Component {
-  handleScrollToRegistration = () => {
-    if (this.props.scrollToReg) {
-      this.props.scrollToReg();
-    }
-  }
-
-  render() {
-    return (
-      <header className="header">
-        <button onClick={this.handleScrollToRegistration}>Sign Up</button>
-      </header>
-    );
-  }
->>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
 }
-
 export default Header;

@@ -21,3 +21,6 @@
   background-color: #3b82f6;
   color: white;
 }
+.cardd:hover{
+  outline: 1px solid #C54805;
+}

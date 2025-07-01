@@ -3,7 +3,6 @@ import './home.css'
 
 const Home = () => {
   return (
-<<<<<<< HEAD
     <div id='home'>
       <div id="carouselExampleCaptions" className="carousel slide carousel-fade">
         <div className="carousel-inner">
@@ -39,9 +38,6 @@ const Home = () => {
         </button>
       </div>      
     </div>
-=======
-    <div></div>
->>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
   )
 }
 
