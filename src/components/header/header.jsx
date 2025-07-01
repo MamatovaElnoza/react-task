@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './header.css'
 import React, { useState } from 'react';
 
@@ -70,6 +71,25 @@ const Header = () => {
       <div className="clr"></div>
     </div>
   )
+=======
+import React, { Component } from 'react';
+import './header.css';
+
+class Header extends Component {
+  handleScrollToRegistration = () => {
+    if (this.props.scrollToReg) {
+      this.props.scrollToReg();
+    }
+  }
+
+  render() {
+    return (
+      <header className="header">
+        <button onClick={this.handleScrollToRegistration}>Sign Up</button>
+      </header>
+    );
+  }
+>>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
 }
 
-export default Header
+export default Header;

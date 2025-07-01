@@ -10,7 +10,11 @@
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+<<<<<<< HEAD
     "react-player": "^3.0.0",
+=======
+    "react-router-dom": "^7.6.3",
+>>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

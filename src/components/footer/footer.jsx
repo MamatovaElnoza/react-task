@@ -2,6 +2,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <div className='footer_color'>
       <div className='container'>
         <div className="footer">
@@ -57,6 +58,9 @@ const Footer = () => {
         </div>
       </div>
     </div>
+=======
+    <div></div>
+>>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
   )
 }
 

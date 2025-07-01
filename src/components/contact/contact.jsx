@@ -2,12 +2,19 @@ import './contact.css';
 import React, { useState } from 'react';
 
 const Contact = () => {
+<<<<<<< HEAD
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     message: ''
   });
+=======
+  return (
+    <div></div>
+  )
+}
+>>>>>>> 703ea98bf27e2c61713b8c813bf1a92971d87566
 
   const [status, setStatus] = useState('');
 
