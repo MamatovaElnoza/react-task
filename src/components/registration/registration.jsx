@@ -26,7 +26,7 @@ class Registration extends Component {
       <div className="registration-container" ref={this.props.innerRef}>
         <form className='registration-form' onSubmit={this.handleSubmit}>
           <div style={{ textAlign: 'center', margin: '40px' }}>
-            <h1 style={{ color: '#C54805', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
+            <h1 style={{ color: '#0d6efd', fontSize: '50px', fontWeight: '700' }}>FARQI YO'Q .</h1>
             <h2 style={{ fontSize: '40px', marginLeft: '120px', fontWeight: '600' }}>Registration</h2>
           </div>
           <div className='inputs-div'>

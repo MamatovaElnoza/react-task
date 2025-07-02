@@ -28,7 +28,7 @@ input {
 }
 
 input:hover {
-	outline: 1px solid #C54805;
+	outline: 1px solid #0d6efd;
 }
 
 
@@ -44,10 +44,10 @@ label {
 	outline: 1px solid rgb(156, 154, 154);
 }
 .textara:hover{
-    outline: 1px solid #C54805;
+    outline: 1px solid #0d6efd;
 }
 .sendmessage {
-	background-color: #C54805;
+	background-color: #0d6efd;
 	border-radius: 25px;
 	border: none;
 	padding: 10px 30px;

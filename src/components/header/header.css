@@ -16,7 +16,7 @@ body {
 .logo {
     font-size: 50px;
     font-weight: bold;
-    background-image: url(/public/images/527a18677c02f3d017859415e8e7af930708.jpg);
+    background-image: url(/public/images/pexels-tobiasbjorkli-2104152.jpg);
     background-size: cover;
     background-position: center;
     color: transparent !important;
@@ -26,11 +26,11 @@ body {
 
 .cont a {
     text-decoration: none;
-    color: #fff;
+    color: #111;
 }
 
 .cont a:hover {
-    color: #C54805;
+    color: #0d6efd;
 }
 
 .cont {
@@ -43,8 +43,8 @@ body {
 
 .navbar {
     height: 90px;
-    background-color: #040E27;
-    color: #fff;
+    background-color: #fff;
+    color: #111;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -63,7 +63,8 @@ body {
     display: block;
     font-size: 18px;
     width: 40px;
-    background: #a3a3a3;
+    color: white;
+    background: #0d6efd;
     border-radius: 50%;
 }
 
@@ -73,7 +74,7 @@ body {
 }
 
 .sidebar a {
-    color: white;
+    color: 111;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -93,6 +94,8 @@ body {
     width: 320px;
     overflow: hidden;
     transition:max-height 0.5s ;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 3px
 }
 
 .sub-menu-wrap.active {
@@ -100,7 +103,7 @@ body {
 }
 
 .sub-menu {
-    background: #040E27;
+    background: #fff;
     padding: 20px;
     margin: 10px;
 }
@@ -164,9 +167,9 @@ body {
 
 .sidebar button{
     margin-top: 5px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff;
     background: #040E27;
-    color: #fff;
+    color: #fff; */
 }
 
 @media (max-width:360px) {

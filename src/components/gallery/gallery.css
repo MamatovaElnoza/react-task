@@ -21,6 +21,10 @@
   background-color: #040E27;
   color: white;
 }
+.cardd {
+  transition: all 200ms ease ;
+}
 .cardd:hover{
-  outline: 1px solid #C54805;
+  outline: 2px solid #0d6efd;
+  transition: all 200ms ease ;
 }
